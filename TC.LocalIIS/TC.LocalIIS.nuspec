@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TC.LocalIIS</id>
+    <version>1.0.0.0</version>
+    <title>TC - Local IIS (Dev)</title>
+    <authors>Andrew Davies</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Setup a local IIS Website with the same host name as the project.</description>
+    <licenseUrl>https://github.com/gothandy/TC.LocalIIS/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/gothandy/TC.LocalIIS.NuGet</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/gothandy/TC.LocalIIS/master/favicon.ico</iconUrl>
+    <copyright>Copyright 2014 True Clarity</copyright>
+    <developmentDependency>true</developmentDependency>
+  </metadata>
+  <files>
+    <file src="lib\empty.txt" target="lib\" />
+    <file src="scripts\*.ps1" target="scripts\" />
+    <file src="tools\*.ps1" target="tools\" />
+  </files>
+</package>
