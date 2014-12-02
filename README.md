@@ -12,6 +12,8 @@ Uninstall will remove the host file entry and revert the project to IIS Express.
 
 Tested on Visual Studio 2013.
 
+Worth un-checking *Apply server settings to all users (store in project file)* otherwise project won't install until Local IIS instance created.
+
 An `empty.txt` is used in the `lib` folder to ensure the `install.ps1` and `uninstall.ps1` are called and this package isn't installed as a solution package.
 
 ## References
