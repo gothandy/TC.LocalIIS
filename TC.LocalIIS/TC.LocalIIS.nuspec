@@ -3,7 +3,7 @@
   <metadata>
     <id>TC.LocalIIS</id>
     <version>1.0.0.0</version>
-    <title>TC - Local IIS (Dev)</title>
+    <title>Local IIS (Dev)</title>
     <authors>Andrew Davies</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Setup a local IIS Website with the same host name as the project.</description>
